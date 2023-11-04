@@ -1,0 +1,55 @@
+html,body {
+    height:100%;
+    min-height:100%; 
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('/GameStartMenus/Witcher3Theme/resources/images/Witcher3Background.PNG'); 
+    background-size: cover;
+}
+
+#bannerdiv {
+    height: 100%;
+    width: 450px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.94);
+}
+
+#logoArea { 
+    background-image: url('/GameStartMenus/Witcher3Theme/resources/images/Witcher3Logo.PNG'); 
+    background-size: cover;
+    height: 250px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    margin-top: 100px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#menu li{
+    margin-top: 25px;
+    text-decoration-style: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+#menu li:hover{
+    border: 1px solid white;
+}
+
+#versionTag {
+    margin-top: 300px;
+    color: white;
+}
