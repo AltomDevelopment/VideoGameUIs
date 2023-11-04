@@ -1,0 +1,61 @@
+html,body {
+    height:100%;
+    min-height:100%; 
+}
+
+#active {
+    background-color: yellow;
+}
+
+#menuHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+h2 {
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.menuItem {
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+#subMenu {
+    width: 325px;
+    margin-right: 100px;
+}
+
+#subMenu p {
+    text-align: end;
+}
+
+.menuItemContainer {
+    text-align: center;
+}
+
+#menuDisplay {
+    display: flex;
+    flex-direction: row;
+}
